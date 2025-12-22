@@ -65,6 +65,14 @@ async function loadProjects() {
       const card = document.createElement("article");
       card.className = "card project reveal";
       card.innerHTML = `
+        ${p.image ? `
+          <img
+            class="project-img"
+            src="${p.image}"
+            alt="${p.imageAlt || p.title}"
+            loading="lazy"
+          />
+        ` : ""}
         <h3>${p.title}</h3>
         <p class="muted tight">${p.subtitle || ""}</p>
         <p>${p.description || ""}</p>
