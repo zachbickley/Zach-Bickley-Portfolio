@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Zach Bickley — Mechanical Engineering student portfolio." />
+  <title>Zach Bickley | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="brand-dot"></span>
+        <span>Zach Bickley</span>
+      </a>
+
+      <button class="nav-toggle" aria-controls="nav-links" aria-expanded="false">
+        <span class="sr-only">Toggle menu</span>
+        ☰
+      </button>
+
+      <div id="nav-links" class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <button id="themeBtn" class="theme-btn" type="button" aria-label="Toggle dark mode">🌓</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="top" class="hero">
+      <div class="container hero-grid reveal">
+        <div>
+          <p class="kicker">Mechanical Engineering @ Duke</p>
+          <h1>Building things that <span class="accent">work</span> — and documenting them well.</h1>
+          <p class="lede">
+            I’m Zach (Zachary C.) Bickley — Mechanical Engineering student with hands-on CAD, prototyping,
+            and product innovation experience.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn" href="assets/resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+          </div>
+
+          <div class="meta-row">
+            <a class="pill" href="mailto:zach.bickley@duke.edu">zach.bickley@duke.edu</a>
+            <a class="pill" href="https://www.linkedin.com/in/zachary-bickley/" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="pill" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+
+        <aside class="hero-card reveal" aria-label="Quick facts">
+          <h2>Quick facts</h2>
+          <ul class="bullets">
+            <li><strong>Duke University</strong> (B.S.E. Mechanical Engineering)</li>
+            <li>Materials Science & Engineering Certificate</li>
+            <li>CAD + prototyping (SolidWorks, Rhino)</li>
+            <li>Programming (Python, JavaScript, C/C++)</li>
+          </ul>
+          <p class="note">Tip: Replace “GitHub” link with your profile URL.</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container reveal">
+        <h2>About</h2>
+        <p>
+          I like projects where engineering meets clear communication: CAD iterations, testing, and writing
+          up results so others can reproduce the work.
+        </p>
+
+        <div class="two-col">
+          <div class="card">
+            <h3>What I’m into</h3>
+            <ul class="bullets">
+              <li>Mechanical design, DFM-ish thinking, rapid prototyping</li>
+              <li>Systems + mechatronics fundamentals (Arduino / circuits)</li>
+              <li>Sustainability + circular economy product innovation</li>
+              <li>Documentation: diagrams, writeups, clean Git repos</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Education</h3>
+            <p class="tight">
+              <strong>Duke University</strong> — B.S.E. Mechanical Engineering (2024–2028)<br />
+              Materials Science & Engineering Certificate
+            </p>
+            <p class="muted tight">Durham, NC</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section alt">
+      <div class="container reveal">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p class="muted">Edit <code>data/projects.json</code> to add your own work.</p>
+        </div>
+
+        <div class="filters">
+          <button class="chip active" data-filter="all">All</button>
+          <button class="chip" data-filter="cad">CAD</button>
+          <button class="chip" data-filter="prototype">Prototyping</button>
+          <button class="chip" data-filter="research">Research</button>
+          <button class="chip" data-filter="software">Software</button>
+        </div>
+
+        <div id="projectGrid" class="grid"></div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="container reveal">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content card">
+              <h3>Duke MEMS — Undergraduate Research Assistant</h3>
+              <p class="muted tight">Sep 2025 – Present</p>
+              <ul class="bullets">
+                <li>Working on ethics case studies in the autonomous vehicle industry.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content card">
+              <h3>Iron Mountains LLC — CAD Draftsman</h3>
+              <p class="muted tight">Jun – Aug 2025</p>
+              <ul class="bullets">
+                <li>Designed and drafted injection-moldable juvenile and pet gear parts using SolidWorks.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content card">
+              <h3>Duke Pratt School of Engineering — Team Co-Lead</h3>
+              <p class="muted tight">Aug – Dec 2024</p>
+              <ul class="bullets">
+                <li>Led a team designing and 3D-printing a handheld toy car generator prototype.</li>
+                <li>Ran weekly meetings, authored memos, and presented the prototype to 100+ attendees.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <div class="container reveal">
+        <h2>Skills</h2>
+        <div class="skill-grid">
+          <div class="card">
+            <h3>CAD / Design</h3>
+            <p>SolidWorks, Rhino, DFM basics, dimensioning, assemblies</p>
+          </div>
+          <div class="card">
+            <h3>Programming</h3>
+            <p>Python, JavaScript, C/C++, C#, Arduino IDE</p>
+          </div>
+          <div class="card">
+            <h3>Build + Test</h3>
+            <p>3D printing, prototyping, iteration, documentation</p>
+          </div>
+          <div class="card">
+            <h3>Communication</h3>
+            <p>Technical memos, presentations, clear project repos</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container reveal">
+        <h2>Contact</h2>
+        <p class="muted">This form uses <code>mailto:</code> (no backend needed).</p>
+
+        <form class="card contact-form" id="contactForm">
+          <label>
+            Your name
+            <input name="name" type="text" autocomplete="name" required />
+          </label>
+          <label>
+            Your email
+            <input name="email" type="email" autocomplete="email" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="6" required></textarea>
+          </label>
+
+          <div class="cta-row">
+            <button class="btn primary" type="submit">Send</button>
+            <a class="btn" href="mailto:zach.bickley@duke.edu">Email directly</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted">© <span id="year"></span> Zach Bickley. Built with GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
