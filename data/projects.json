@@ -1,7 +1,7 @@
 [
   {
     "title": "Injection-Moldable Parts (SolidWorks)",
-    "subtitle": "CAD + DFM-minded drafting",
+    "subtitle": "CAD drafting",
     "description": "A collection of designed and drafted parts with notes on constraints, parting lines, and iteration decisions.",
     "categories": ["cad"],
     "tags": ["SolidWorks", "DFM", "Drafting"],
