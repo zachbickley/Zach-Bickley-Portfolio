@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Injection-Moldable Parts (SolidWorks)",
+    "subtitle": "CAD + DFM-minded drafting",
+    "description": "A collection of designed and drafted parts with notes on constraints, parting lines, and iteration decisions.",
+    "categories": ["cad"],
+    "tags": ["SolidWorks", "DFM", "Drafting"],
+    "link": "",
+    "writeup": ""
+  },
+  {
+    "title": "Handheld Toy Car Generator Prototype",
+    "subtitle": "3D print + circuitry + testing",
+    "description": "Team project: designed, modeled, prototyped, and presented a working generator device.",
+    "categories": ["prototype"],
+    "tags": ["3D Printing", "Prototyping", "Testing"],
+    "link": "",
+    "writeup": ""
+  },
+  {
+    "title": "Autonomous Vehicle Ethics Case Studies",
+    "subtitle": "Research work (MEMS)",
+    "description": "Ongoing work building structured case studies and insights for industry ethics decisions.",
+    "categories": ["research"],
+    "tags": ["Research", "Ethics", "Writing"],
+    "link": "",
+    "writeup": ""
+  }
+]
