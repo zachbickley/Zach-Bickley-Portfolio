@@ -6,7 +6,7 @@ Includes a project gallery powered by a simple JSON file (`data/projects.json`) 
 ---
 
 ## Live Site
-- GitHub Pages URL: `https://zachbickley.github.io/e-portfolio/`  
+- GitHub Pages URL: `https://zachbickley.github.io/Zach-Bickley-Portfolio/`  
 
 ---
 
